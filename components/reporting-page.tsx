@@ -183,7 +183,7 @@ export default function ReportingPage() {
             <h2 className="text-2xl font-bold mb-8 dark:text-white">Explore More Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="rounded-lg overflow-hidden">
-                <div className="h-[420px] w-[416px] bg-gray-200 dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 md:w-[416px] md:h-[420px] bg-gray-200 dark:bg-gray-800 overflow-hidden">
                   <Image
                     src={salesAndMarketing}
                     alt="Sales & Marketing Automation"
@@ -201,7 +201,7 @@ export default function ReportingPage() {
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <div className="h-[420px] w-[416px] bg-gray-200 dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 md:w-[416px] md:h-[420px] bg-gray-200 dark:bg-gray-800 overflow-hidden">
                   <Image
                     src={hrManagement}
                     alt="HR Management"
@@ -217,7 +217,7 @@ export default function ReportingPage() {
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <div className="h-[420px] w-[416px] bg-gray-200 dark:bg-gray-800 overflow-hidden">
+                <div className="h-48 md:w-[416px] md:h-[420px] bg-gray-200 dark:bg-gray-800 overflow-hidden">
                   <Image
                     src={productionReporting}
                     alt="Production Reporting"

@@ -228,7 +228,7 @@ export default function AboutPage() {
                   }}
                   className="rounded-lg overflow-hidden"
                 >
-                  <div className="w-[416px] h-[420px] bg-gray-200 dark:bg-gray-800">
+                  <div className="h-48 md:w-[416px] md:h-[420px] bg-gray-200 dark:bg-gray-800">
                     <Image
                       src={service.img}
                       alt={service.title}
